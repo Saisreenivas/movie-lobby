@@ -100,7 +100,7 @@ Install MongoDB in Docker
 
 
     ```
-    curl --location --request DELETE 'http://localhost:3000/movies/657e041e125fedf7b1199c9b' \
+    curl --location --request DELETE 'http://localhost:3000/movies/:id' \
     --header 'authorization: Basic YWRtaW46YWRtaW4=' \
     --header 'Content-Type: application/json' \
     --data '{
