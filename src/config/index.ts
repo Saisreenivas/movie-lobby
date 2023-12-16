@@ -1,0 +1,3 @@
+import MONGODB_CONFIG from "./MONGODB_CONFIG"
+
+export { MONGODB_CONFIG }
